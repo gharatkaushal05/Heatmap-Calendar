@@ -1,0 +1,10 @@
+/* Target the month element in the calendar */
+.nivo-calendar .nivo-calendar__month rect {
+  stroke: white; 
+    stroke: none; 
+    /* Removes borders around the month rectangles */
+  }
+  .nivo-calendar .nivo-calendar__month text {
+    margin: 0; /* Remove margins if any */
+    padding: 0; /* Remove padding if any */
+  }  

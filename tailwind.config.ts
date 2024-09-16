@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      spacing: {
+        '4xl': '48rem', // Custom value for 4xl width and height
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

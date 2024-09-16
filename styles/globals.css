@@ -2,17 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
 
 body {
   color: var(--foreground);
@@ -24,4 +13,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+.nivo-calendar .month {
+  stroke: none; /* Removes borders */
+  stroke-width: 0; /* Ensures no border width is applied */
 }
